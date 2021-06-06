@@ -8,8 +8,8 @@ import {
 } from "../../../recoil/atoms/GameConfig";
 import useLocalStorageRecoilState from "../../../hooks/useLocalStorageRecoilState";
 import { Link } from "react-router-dom";
-import { historyAtom } from "../../../recoil/atoms/GameState";
-import { useSetRecoilState } from "recoil";
+import { historyAtom, timeElapsedAtom } from "../../../recoil/atoms/GameState";
+import { useResetRecoilState } from "recoil";
 
 const StyledDiv = styled.div``;
 
@@ -23,9 +23,13 @@ export default function GameConfigPage() {
   const [putterCount, setPutterCount] =
     useLocalStorageRecoilState<number>(putterCountAtom);
 
-  const setHistory = useSetRecoilState(historyAtom);
+  const resetRecoilState = useResetRecoilState(historyAtom);
+  const resetTimeElapsed = useResetRecoilState(timeElapsedAtom);
 
-  useEffect(() => setHistory([]), [setHistory]);
+  useEffect(() => {
+    resetRecoilState();
+    resetTimeElapsed();
+  }, [resetRecoilState, resetTimeElapsed]);
 
   return (
     <StyledDiv>
