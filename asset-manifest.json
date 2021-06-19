@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/puttometer/static/css/main.16e7bc6b.chunk.css",
-    "main.js": "/puttometer/static/js/main.ba1dd378.chunk.js",
-    "main.js.map": "/puttometer/static/js/main.ba1dd378.chunk.js.map",
+    "main.css": "/puttometer/static/css/main.3d29c7dd.chunk.css",
+    "main.js": "/puttometer/static/js/main.fe2fd9a2.chunk.js",
+    "main.js.map": "/puttometer/static/js/main.fe2fd9a2.chunk.js.map",
     "runtime-main.js": "/puttometer/static/js/runtime-main.b36e3caa.js",
     "runtime-main.js.map": "/puttometer/static/js/runtime-main.b36e3caa.js.map",
-    "static/js/2.4e543c36.chunk.js": "/puttometer/static/js/2.4e543c36.chunk.js",
-    "static/js/2.4e543c36.chunk.js.map": "/puttometer/static/js/2.4e543c36.chunk.js.map",
+    "static/js/2.a3fa3657.chunk.js": "/puttometer/static/js/2.a3fa3657.chunk.js",
+    "static/js/2.a3fa3657.chunk.js.map": "/puttometer/static/js/2.a3fa3657.chunk.js.map",
     "index.html": "/puttometer/index.html",
-    "static/css/main.16e7bc6b.chunk.css.map": "/puttometer/static/css/main.16e7bc6b.chunk.css.map",
-    "static/js/2.4e543c36.chunk.js.LICENSE.txt": "/puttometer/static/js/2.4e543c36.chunk.js.LICENSE.txt",
-    "static/media/backspace.2eabbca1.svg": "/puttometer/static/media/backspace.2eabbca1.svg",
-    "static/media/pause.b87cfe89.svg": "/puttometer/static/media/pause.b87cfe89.svg",
-    "static/media/stop.81431bae.svg": "/puttometer/static/media/stop.81431bae.svg"
+    "static/css/main.3d29c7dd.chunk.css.map": "/puttometer/static/css/main.3d29c7dd.chunk.css.map",
+    "static/js/2.a3fa3657.chunk.js.LICENSE.txt": "/puttometer/static/js/2.a3fa3657.chunk.js.LICENSE.txt",
+    "static/media/backspace.2eabbca1.svg": "/puttometer/static/media/backspace.2eabbca1.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b36e3caa.js",
-    "static/js/2.4e543c36.chunk.js",
-    "static/css/main.16e7bc6b.chunk.css",
-    "static/js/main.ba1dd378.chunk.js"
+    "static/js/2.a3fa3657.chunk.js",
+    "static/css/main.3d29c7dd.chunk.css",
+    "static/js/main.fe2fd9a2.chunk.js"
   ]
 }
